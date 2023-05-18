@@ -1,0 +1,33 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    padding: 100px;
+    border: 5px solid rgb(83, 68, 200);
+    text-align: center;
+    background-image: url(calcbg.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(207, 85, 154);
+}
+
+.label {
+   text-shadow: 2px 9px 4px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    font-family: cursive;
+    color: coral;
+
+}
